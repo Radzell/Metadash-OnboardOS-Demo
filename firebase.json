@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "onboard-os-metadash-demo",    
+    "public": "out",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

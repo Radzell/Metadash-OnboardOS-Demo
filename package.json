@@ -5,11 +5,14 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "firebase deploy --only hosting:onboard-os-metadash-demo"
   },
   "dependencies": {
     "next": "12.1.4",
+    "onboard-os": "^1.0.5",
     "react": "18.0.0",
     "react-dom": "18.0.0"
   },
